@@ -1,0 +1,146 @@
+body{
+    margin: auto;
+}
+#section1{
+    margin: 0;
+    height: 500px;
+    width: 100%;
+    background-image: url(img/food-wallpaper.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    
+}
+#brand{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 5%;
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.social{
+    display:inline-block;
+margin-left: 69%;
+}
+.socialicon{
+    height: 50px;
+    width:50px;
+    
+}
+.socialicon1{
+    height:40px;
+width:40px;
+margin-bottom: 7px;
+}
+.socialicon2{
+    height:40px;
+    width:40px;
+    margin-bottom: 7px;
+    margin-left: 4px;
+}
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 4%;
+    text-align: center;
+    font-size:100px;
+    color:#8e3135;
+}
+#logo>span{
+    margin-left: -3%;
+    margin-top: 1%;
+   position: absolute;
+}
+#heading{
+    font-size:35px;
+    margin: auto;
+    background-color:white;
+    width:28%;
+    margin-top: 2%;
+    color:#ec893f;
+}
+#dropdown{
+    height:60px;
+    width:45%;
+    margin-top: 3%;
+    margin-left: 27%;
+}
+select{
+    height:60px;
+    width:42%;
+}
+#secondselect{
+    height:60px;
+    width:52%;
+    margin-left: 10px;
+
+}
+#quicksearch{
+    height:500px;
+    width:80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#QuickHeading{
+    font-size:30px;
+    font-weight: bold;
+    display:block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ec893f;
+    margin-left: 2%;
+}
+#quickheading2{
+    font-size:20px;
+    display:block;
+    line-height:2;
+    color:gray;
+    margin-left: 2%
+}
+#QuickSubHeading{
+    font-size:20px;
+    display:block;
+    line-height:2;
+    color:gray;
+    margin-left: 2%;
+}
+.mainTileContainer{
+ margin-left:20px;     
+}
+.tileContainer{
+    height:200px;
+    width:40%;
+    display: inline-block;
+    margin-left: 8%;
+    margin-top: 2%;
+    box-shadow: 10px 20px 10px #c1dbea;
+}
+
+.tileComponent1{
+    width:52%;
+    float: left;
+}
+
+.tileComponent1 > img{
+    height:200px;
+    width:100%;
+}
+
+.tileComponent2{
+    width:42%;
+    float: left;
+    margin-top: 45px;
+    margin-left: 15px;
+}
+
+.componentHeading{
+    color:#ec893f;
+    font-size: 25px;
+}
+.componentSubHeading{
+    color: #343536;
+    font-size: 18px;
+}
